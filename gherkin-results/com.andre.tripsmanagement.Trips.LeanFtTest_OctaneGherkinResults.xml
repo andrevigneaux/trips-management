@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1"><feature name="Editar lista de viajes" path="src\test\java\com\andre\tripsmanagement\Trips\LeanFtFeature.feature" started="1541446133193" tag=""><file><![CDATA[# language: es
+
+@trips
+Característica: Editar lista de viajes
+
+	Escenario: Agregar viaje
+		Cuando se hace clic en el botón de New
+		Y se completen los campos en el formulario
+		Y se haga clic en el botón Create
+		Entonces se creará un nuevo viaje con la información proporcionada
+
+	Escenario: Eliminar viaje
+		Cuando se hace clic en el botón Delete de un viaje
+		Entonces se eliminará el viaje de la lista
+
+	#Esquema del escenario: Editar un viaje
+	#	Cuando se hace clic en el botón Edit de un viaje
+	#	Y se edite el <campo>
+	#	Entonces al hacer clic en el botón Create se modificarán los cambios 
+	#	
+ 	#	Ejemplos:
+	#	|campo|
+	#	|Name|
+	#	|Date|
+
+
+
+]]></file><scenarios><scenario name="Agregar viaje"><steps><step duration="395979500" name="Cuando se hace clic en el botón de New" status="passed"/><step duration="155985700" name="Y se completen los campos en el formulario" status="passed"/><step duration="141064100" name="Y se haga clic en el botón Create" status="passed"/><step duration="169352700" name="Entonces se creará un nuevo viaje con la información proporcionada" status="passed"/></steps></scenario><scenario name="Eliminar viaje"><steps><step duration="860826600" name="Cuando se hace clic en el botón Delete de un viaje" status="passed"/><step duration="74105400" name="Entonces se eliminará el viaje de la lista" status="passed"/></steps></scenario></scenarios></feature></features>
