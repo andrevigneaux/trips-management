@@ -9,8 +9,10 @@ import cucumber.api.CucumberOptions;
 import com.hp.lft.sdk.*;
 import com.hpe.alm.octane.OctaneCucumber;
 
-import com.andre.tripsmanagement.unittesting.UnitTestClassBase;;
+import com.andre.tripsmanagement.unittesting.UnitTestClassBase;
+import org.springframework.boot.test.context.SpringBootTest;;
 
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @RunWith(OctaneCucumber.class)
 @CucumberOptions(plugin = {"com.hp.lft.report.CucumberReporter"},
                  features = "src/test/java/com/andre/tripsmanagement/Trips")
