@@ -22,7 +22,7 @@ public class TripsTests extends UnitTestClassBase {
     public static void setUpBeforeClass() throws Exception {
         instance = new TripsTests();
         globalSetup(TripsTests.class);
-        SpringApplication.run(TripsManagementApplication.class);
+        TripsManagementApplication.main(new String[] {});
     }
 
     @AfterClass
