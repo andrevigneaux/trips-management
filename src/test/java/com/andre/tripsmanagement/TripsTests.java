@@ -7,6 +7,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @RunWith(OctaneCucumber.class)
@@ -21,6 +22,7 @@ public class TripsTests extends UnitTestClassBase {
     public static void setUpBeforeClass() throws Exception {
         instance = new TripsTests();
         globalSetup(TripsTests.class);
+        SpringApplication.run(TripsManagementApplication.class);
     }
 
     @AfterClass
