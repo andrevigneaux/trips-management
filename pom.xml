@@ -55,9 +55,38 @@
 		</dependency>
 
 		<dependency>
+			<groupId>com.hp.lft</groupId>
+			<artifactId>sdk</artifactId>
+			<version>14.50.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.hp.lft</groupId>
+			<artifactId>report</artifactId>
+			<version>14.50.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.hp.lft</groupId>
+			<artifactId>unittesting</artifactId>
+			<version>14.50.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.hp.lft</groupId>
+			<artifactId>verifications</artifactId>
+			<version>14.50.0</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.hpe.alm.octane</groupId>
+			<artifactId>octane-cucumber-jvm</artifactId>
+			<version>12.55.7</version>
 		</dependency>
 	</dependencies>
 
